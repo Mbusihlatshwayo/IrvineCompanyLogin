@@ -6,7 +6,6 @@ import logoImage from './Images/irvine-company-logo.png'
 const authWidth = '85%';
 const authHeight = '65%';
 const logoWidth = '70%';
-// const logoHeight = ''
 
 export default class App extends React.Component {
   render() {
@@ -66,9 +65,9 @@ const styles = StyleSheet.create({
     passwordInput: {
     width: '90%',
     height: '8%',
-    marginTop: 1,
+    // marginTop: 1,
     position: 'absolute',
-    top: 180,
+    top: 160,
     // backgroundColor: '#FF0',
     paddingLeft: '3%',
     fontSize: 18,
@@ -76,26 +75,23 @@ const styles = StyleSheet.create({
     borderBottomColor: 'gray',
   },
   loginScreenButton:{
-    // marginRight:10,
-    // marginLeft:10,
-    // marginTop:10,
-    // paddingTop:10,
-    // paddingBottom:10,
+    marginRight:10,
+    marginLeft:10,
+    marginTop:100,
+    paddingTop:10,
+    paddingBottom:10,
     alignItems: 'center',
     justifyContent: 'center',
     width: '90%',
-    height: '8%',
+    height: '11%',
     backgroundColor:'#FFD700',
-    // borderRadius:10,
-    // borderWidth: 1,
-    // borderColor: '#fff'
   },
   loginText:{
-      color:'#fff',
+      color:'#FFF',
       textAlign:'center',
       paddingLeft : 10,
       paddingRight : 10,
-      fontSize: 25,
+      fontSize: 18,
       fontWeight: 'bold',
   },
   TextStyle: {
